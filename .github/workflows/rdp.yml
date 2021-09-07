@@ -12,7 +12,7 @@ jobs:
 
     - name: Download Ngrok
 
-      run: Invoke-WebRequest https://raw.githubusercontent.com/romain09/AWS-RDP/main/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
+      run: Invoke-WebRequest https://raw.githubusercontent.com/romain09/REVERSE-RDP/main/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
 
     - name: Extract Ngrok Archive
 
